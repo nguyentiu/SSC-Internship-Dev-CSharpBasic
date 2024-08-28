@@ -1,0 +1,14 @@
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\bin\Debug\net6.0\C#Exercises.exe
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\bin\Debug\net6.0\C#Exercises.deps.json
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\bin\Debug\net6.0\C#Exercises.runtimeconfig.json
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\bin\Debug\net6.0\C#Exercises.dll
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\bin\Debug\net6.0\C#Exercises.pdb
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.AssemblyInfoInputs.cache
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.AssemblyInfo.cs
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.csproj.CoreCompileInputs.cache
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.dll
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\refint\C#Exercises.dll
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.pdb
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\C#Exercises.genruntimeconfig.cache
+C:\Users\nguye\Desktop\All\Intern\C#Exercises\obj\Debug\net6.0\ref\C#Exercises.dll
