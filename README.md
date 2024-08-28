@@ -11,23 +11,23 @@
   int age = 30;
   string name = "John Doe";
 - Giải Thích:
-  - int age khai báo một biến age kiểu số nguyên.
-  - string name khai báo một biến name kiểu chuỗi.
+  - int `age` khai báo một biến `age` kiểu số nguyên.
+  - string `name` khai báo một biến `name` kiểu chuỗi.
 ### Kiểu Dữ Liệu (Data Types)
 - Định Nghĩa:
   - Kiểu dữ liệu xác định loại giá trị mà một biến có thể lưu trữ. C# hỗ trợ nhiều kiểu dữ liệu, bao gồm kiểu dữ liệu nguyên thủy và kiểu dữ liệu phức tạp.
 - Các Kiểu Dữ Liệu Chính:
-  - Kiểu Nguyên Thủy: int, double, char, bool
-  - Kiểu Dữ Liệu Phức Tạp: string, array
+  - Kiểu Nguyên Thủy: `int`, `double`, `char`, `bool`
+  - Kiểu Dữ Liệu Phức Tạp: `string`, `array`
 - Ví Dụ:
   ```csharp
   double height = 5.9;
-  char initial = 'J';
+  char initial = `J`;
   bool isStudent = true;
 - Giải Thích:
-  - double height lưu trữ một số thực.
-  - char initial lưu trữ một ký tự.
-  - bool isStudent lưu trữ giá trị đúng/sai.
+  - `double height` lưu trữ một số thực.
+  - `char initial` lưu trữ một ký tự.
+  - `bool isStudent` lưu trữ giá trị đúng/sai.
 ### Toán Tử (Operators)
 - Định Nghĩa:
   - Toán tử là các ký hiệu hoặc ký tự được sử dụng để thực hiện các phép toán trên biến và giá trị.
@@ -41,7 +41,7 @@
   bool isEqual = (5 == 5);   // True
   bool isTrue = (true && false);  // False
 - Giải Thích:
-  - + thực hiện phép cộng.
+  - `+` thực hiện phép cộng.
   - == kiểm tra sự bằng nhau.
   - && thực hiện phép AND logic.
 ## 2. Mảng (Array), Enum, Nullable
@@ -53,8 +53,8 @@
   int[] numbers = {1, 2, 3, 4, 5};
   string[] names = new string[3] {"Alice", "Bob", "Charlie"};
 - Giải Thích:
-  - int[] numbers khai báo một mảng số nguyên với các giá trị từ 1 đến 5.
-  - string[] names khai báo một mảng chuỗi với ba tên.
+  - `int[] numbers` khai báo một mảng số nguyên với các giá trị từ 1 đến 5.
+  - `string[] names` khai báo một mảng chuỗi với ba tên.
 ### Enum
 - Định Nghĩa:
   - Enum (enumeration) là một kiểu dữ liệu đặc biệt cho phép bạn định nghĩa một tập hợp các hằng số có tên.
@@ -63,21 +63,21 @@
   enum Day { Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday }
   Day today = Day.Wednesday;
 - Giải Thích:
-  - enum Day định nghĩa các giá trị của các ngày trong tuần.
-  - Day today = Day.Wednesday gán giá trị Wednesday cho biến today.
+  - `enum Day` định nghĩa các giá trị của các ngày trong tuần.
+  - `Day today = Day.Wednesday` gán giá trị `Wednesday` cho biến `today`.
 ### Nullable
 - Định Nghĩa:
-- Nullable cho phép một kiểu dữ liệu có thể chứa giá trị null ngoài các giá trị thông thường.
+- Nullable cho phép một kiểu dữ liệu có thể chứa giá trị `null` ngoài các giá trị thông thường.
 - Ví Dụ:
   ```csharp
   int? age = null;
 - Giải Thích:
-  - int? cho phép biến age lưu trữ giá trị số nguyên hoặc null.
+  - `int?` cho phép biến age lưu trữ giá trị số nguyên hoặc null.
 ## 3. Điều Kiện và Vòng Lặp
 ### Điều Kiện (If, Switch)
 - If:
   - Định Nghĩa:
-    - Câu lệnh if được sử dụng để thực hiện một khối mã dựa trên một điều kiện.
+    - Câu lệnh `if` được sử dụng để thực hiện một khối mã dựa trên một điều kiện.
   - Ví Dụ:
     ```csharp
     int number = 10;
@@ -86,10 +86,10 @@
         Console.WriteLine("Number is positive.");
     }
   - Giải Thích:
-    - Câu lệnh if kiểm tra nếu number lớn hơn 0 và in ra thông báo nếu điều kiện đúng.
+    - Câu lệnh `if` kiểm tra nếu `number` lớn hơn 0 và in ra thông báo nếu điều kiện đúng.
 - Switch:
   - Định Nghĩa:
-    - Câu lệnh switch cho phép bạn kiểm tra một biến với nhiều giá trị khác nhau.
+    - Câu lệnh `switch` cho phép bạn kiểm tra một biến với nhiều giá trị khác nhau.
   - Ví Dụ:
     ```csharp
     Day day = Day.Monday;
@@ -103,11 +103,11 @@
             break;
     }
   - Giải Thích:
-    - Câu lệnh switch kiểm tra giá trị của day và thực hiện khối mã tương ứng với từng giá trị.
+    - Câu lệnh `switch` kiểm tra giá trị của `day` và thực hiện khối mã tương ứng với từng giá trị.
 ### Vòng Lặp (For, While, Do-While)
 - For:
   - Định Nghĩa:
-    - Vòng lặp for lặp qua một khối mã với số lần lặp xác định.
+    - Vòng lặp `for` lặp qua một khối mã với số lần lặp xác định.
   - Ví Dụ:
     ```csharp
     for (int i = 0; i < 5; i++)
@@ -115,10 +115,10 @@
         Console.WriteLine(i);
     }
   - Giải Thích:
-    - Vòng lặp for in các số từ 0 đến 4.
+    - Vòng lặp `for` in các số từ 0 đến 4.
 - While:
   - Định Nghĩa:
-    - Vòng lặp while lặp qua một khối mã miễn là điều kiện được xác định là đúng.
+    - Vòng lặp `while` lặp qua một khối mã miễn là điều kiện được xác định là đúng.
   - Ví Dụ:
     ```csharp
     int i = 0;
@@ -128,10 +128,10 @@
         i++;
     }
   - Giải Thích:
-    - Vòng lặp while in các số từ 0 đến 4 và tăng giá trị của i trong mỗi lần lặp.
+    - Vòng lặp `while` in các số từ 0 đến 4 và tăng giá trị của i trong mỗi lần lặp.
 - Do-While:
   - Định Nghĩa:
-    - Vòng lặp do-while lặp qua một khối mã ít nhất một lần, sau đó tiếp tục lặp nếu điều kiện đúng.
+    - Vòng lặp `do-while` lặp qua một khối mã ít nhất một lần, sau đó tiếp tục lặp nếu điều kiện đúng.
   - Ví Dụ:
     ```csharp
     int i = 0;
@@ -141,7 +141,7 @@
         i++;
     } while (i < 5);
   - Giải Thích:
-    - Vòng lặp do-while giống như while, nhưng đảm bảo rằng khối mã được thực hiện ít nhất một lần.
+    - Vòng lặp `do-while` giống như `while`, nhưng đảm bảo rằng khối mã được thực hiện ít nhất một lần.
 ## 4. Lớp (Class), Constructor, Thuộc Tính (Property), Phương Thức (Method), Phạm Vi Truy Cập (Access Modifiers)
 ### Lớp (Class)
   - Định Nghĩa:
@@ -160,7 +160,7 @@
         }
     }
   - Giải Thích:
-    - Lớp Car định nghĩa các thuộc tính và phương thức cho các đối tượng kiểu Car.
+    - Lớp `Car` định nghĩa các thuộc tính và phương thức cho các đối tượng kiểu `Car`.
 ### Constructor
 - Định Nghĩa:
   - Constructor là một phương thức đặc biệt được gọi khi một đối tượng được tạo. Nó thường được sử dụng để khởi tạo các thuộc tính của lớp.
@@ -180,7 +180,7 @@
         }
     }
   - Giải Thích:
-    - Constructor Car(string brand, string model, int year) được sử dụng để khởi tạo một đối tượng Car với các giá trị cụ thể cho thuộc tính Brand, Model, và Year.
+    - Constructor `Car(string brand, string model, int year)` được sử dụng để khởi tạo một đối tượng Car với các giá trị cụ thể cho thuộc tính `Brand`, `Model`, và `Year`.
 ### Thuộc Tính (Property)
   - Định Nghĩa:
     - Thuộc tính là các thành phần của lớp cho phép bạn đọc, ghi hoặc tính toán giá trị của các trường (fields) mà không cần phải truy cập trực tiếp.
@@ -197,7 +197,7 @@
         }
     }
   - Giải Thích:
-    - Thuộc tính Name cho phép bạn truy cập và thay đổi giá trị của trường name một cách an toàn.
+    - Thuộc tính `Name` cho phép bạn truy cập và thay đổi giá trị của trường `name` một cách an toàn.
 ### Phương Thức (Method)
 - Định Nghĩa:
   - Phương thức là các chức năng hoặc hành động mà lớp có thể thực hiện. Nó có thể nhận các tham số và trả về một giá trị.
@@ -211,7 +211,7 @@
         }
     }
 - Giải Thích:
-  - Phương thức Add thực hiện phép cộng hai số nguyên và trả về kết quả.
+  - Phương thức `Add` thực hiện phép cộng hai số nguyên và trả về kết quả.
 ### Phạm Vi Truy Cập (Access Modifiers)
 - Định Nghĩa:
   - Phạm vi truy cập xác định mức độ truy cập vào các thành phần của lớp.
@@ -233,31 +233,31 @@
       }
   }
 - Giải Thích:
-  - Trường name có phạm vi truy cập private, trong khi thuộc tính Name có phạm vi truy cập public.
+  - Trường `name` có phạm vi truy cập `private`, trong khi thuộc tính `Name` có phạm vi truy cập `public`.
 ## 5. Kiểu Dữ Liệu (Value Types) và Kiểu Tham Chiếu (Reference Types)
 ### Kiểu Dữ Liệu (Value Types)
 - Định Nghĩa:
   - Kiểu dữ liệu giá trị lưu trữ dữ liệu trực tiếp và các biến kiểu giá trị không chia sẻ dữ liệu với các biến khác.
 - Các Kiểu Dữ Liệu Giá Trị:
-  - Số Nguyên: int, short, long
-  - Số Thực: float, double
-  - Ký Tự: char
-  - Boolean: bool
+  - Số Nguyên: `int`, `short`, `long`
+  - Số Thực: `float`, `double`
+  - Ký Tự: `char`
+  - Boolean: `bool`
 - Ví Dụ:
   ```csharp
   int a = 10;
   int b = a; // b có giá trị 10, không bị ảnh hưởng bởi sự thay đổi của a
   a = 20;
 - Giải Thích:
-  - Khi a được thay đổi, b vẫn giữ giá trị cũ là 10 vì a và b lưu trữ giá trị riêng biệt.
+  - Khi `a` được thay đổi, `b` vẫn giữ giá trị cũ là 10 vì `a` và `b` lưu trữ giá trị riêng biệt.
 ### Kiểu Tham Chiếu (Reference Types)
 - Định Nghĩa:
   - Kiểu dữ liệu tham chiếu lưu trữ địa chỉ của đối tượng trong bộ nhớ. Các biến kiểu tham chiếu chia sẻ dữ liệu với các biến khác.
 - Các Kiểu Dữ Liệu Tham Chiếu:
-  - Chuỗi: string
-  - Mảng: array
-  - Lớp: class
-  - Giao Diện: interface
+  - Chuỗi: `string`
+  - Mảng: `array`
+  - Lớp: `class`
+  - Giao Diện: `interface`
 - Ví Dụ:
   ```csharp
   class Person
@@ -273,7 +273,7 @@
   
   Console.WriteLine(p1.Name); // In ra "Bob"
 - Giải Thích:
-  - p1 và p2 tham chiếu đến cùng một đối tượng trong bộ nhớ, do đó thay đổi qua p2 cũng ảnh hưởng đến p1.
+  - `p1` và `p2` tham chiếu đến cùng một đối tượng trong bộ nhớ, do đó thay đổi qua p2 cũng ảnh hưởng đến p1.
 ## 6. Bài tập tự luyện
 - Bài tập 1: Khai báo các biến để lưu trữ thông tin về một người: tên, tuổi, chiều cao, điểm trung bình và trạng thái hoạt động (active). In ra các giá trị này.
 - Bài tập 2: Sử dụng các toán tử số học để tính chu vi và diện tích của một hình chữ nhật với chiều dài và chiều rộng được nhập vào từ bàn phím.
